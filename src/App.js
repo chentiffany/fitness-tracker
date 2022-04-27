@@ -203,7 +203,7 @@ export default function App() {
                   <td id="sunday">
                     {workoutPlan.map((user) =>{
                       var day = user.day;
-                      if (day=="Sunday"){
+                      if (day==="Sunday"){
                         return(
                           <div>
                             {user.workout}
@@ -215,7 +215,7 @@ export default function App() {
                   <td id="monday">
                   {workoutPlan.map((user) =>{
                       var day = user.day;
-                      if (day=="Monday"){
+                      if (day==="Monday"){
                         return(
                           <div>
                             {user.workout}
@@ -227,7 +227,7 @@ export default function App() {
                   <td id="tuesday">
                   {workoutPlan.map((user) =>{
                       var day = user.day;
-                      if (day=="Tuesday"){
+                      if (day==="Tuesday"){
                         return(
                           <div>
                             {user.workout}
@@ -239,7 +239,7 @@ export default function App() {
                   <td id="wednesday">
                   {workoutPlan.map((user) =>{
                       var day = user.day;
-                      if (day=="Wednesday"){
+                      if (day==="Wednesday"){
                         return(
                           <div>
                             {user.workout}
@@ -251,7 +251,7 @@ export default function App() {
                   <td id="thursday">
                   {workoutPlan.map((user) =>{
                       var day = user.day;
-                      if (day=="Thursday"){
+                      if (day==="Thursday"){
                         return(
                           <div>
                             {user.workout}
@@ -263,7 +263,7 @@ export default function App() {
                   <td id="friday">
                   {workoutPlan.map((user) =>{
                       var day = user.day;
-                      if (day=="Friday"){
+                      if (day==="Friday"){
                         return(
                           <div>
                             {user.workout}
@@ -275,7 +275,7 @@ export default function App() {
                   <td id="saturday">
                   {workoutPlan.map((user) =>{
                       var day = user.day;
-                      if (day=="Saturday"){
+                      if (day==="Saturday"){
                         return(
                           <div>
                             {user.workout}
