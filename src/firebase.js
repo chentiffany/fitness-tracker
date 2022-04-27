@@ -4,12 +4,12 @@ import { getFirestore } from "@firebase/firestore";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAlNujBDqAtSWsjQ_UOxxiwM3y9HzR0ybI",
-  authDomain: "project-c1270.firebaseapp.com",
-  projectId: "project-c1270",
-  storageBucket: "project-c1270.appspot.com",
-  messagingSenderId: "59508850666",
-  appId: "1:59508850666:web:5ef9be02fb8efe0fc7fc93"
+  apiKey: "AIzaSyByXighOin8e8f2umdfOfZpSj9PTBUl05A",
+  authDomain: "project-37a8b.firebaseapp.com",
+  projectId: "project-37a8b",
+  storageBucket: "project-37a8b.appspot.com",
+  messagingSenderId: "706540261615",
+  appId: "1:706540261615:web:57935ebb9e77df96054b1a"
 };
 
 const app = initializeApp(firebaseConfig);
