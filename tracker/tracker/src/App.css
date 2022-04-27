@@ -1,0 +1,31 @@
+#login{
+  text-align: center;
+  padding: 30px;
+  width: 250px;
+  height: 100px;
+  border: 10px solid #E46046;
+  border-radius: 25px;
+}
+#center_login{
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+
+}
+table {
+  border: 2px solid black;
+}
+th {
+  border-bottom: 1px solid black;
+}
+td {
+  text-align: center;
+}
+button{
+	border-radius:28px;
+}
+#title{
+  color: #E46046;
+  font-size: 22px;
+  font-weight: 700;
+}
